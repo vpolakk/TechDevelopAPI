@@ -8,6 +8,15 @@ namespace TechDevelopAPI.Services
     /// </summary>
     public static class SquarableFactory
     {
+        /// <summary>
+        /// Фабричный метод который возвращает подходящий обработчик фигуры и вычисляет её площадь.
+        /// </summary>
+        /// <param name="sides">
+        /// Стороны фигуры.
+        /// </param>
+        /// <returns>
+        /// Площадь.
+        /// </returns>
         public static double GetSquare(List<double> sides)
         {
             return GetSquareble(sides).Square();
